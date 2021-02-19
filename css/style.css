@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+/*font-family: 'Merriweather', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/*font-family: 'Cinzel', serif;*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #414141;
+    background-color: #FDFDFD;
+    font-size: 20px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #414141;
+}
+
+
+
+/****************Header****************/
+
+header {
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+    max-width: 954px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 83px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_item {
+    margin-right: 48px;
+}
+
+.menu_item a {
+    color: #414141;
+}
+
+.call {
+    margin-left: auto;
+    margin-right: 22px;
+}
+
+
+
+/****************Button****************/
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #D3E5EF;
+    padding: 10px 24px;
+    margin-right: 10px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/****************Footer****************/
+
+footer {
+    background-color: #D3E5EF;
+    margin-top: auto;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+}
+
+.logo_light {
+    margin-right: 180px;
+}
+
+.insta {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.insta img {
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone img {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+
+/****************Main****************/
+
+.main {
+    min-height: 100%;
+}
+
+.blocks {
+    position: relative;
+    height: 1156px;
+    margin: 80px 0;
+}
+
+.block {
+    position: absolute;
+    width: 953px;
+    height: 300px;
+    background-color: #D3E5EF;
+}
+
+.block2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 775px;
+    top: 23px;
+    z-index: 10;
+}
+
+.block3 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 243px;
+    top: 196px;
+    z-index: 15;
+}
+
+.block4 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 467px;
+    top: 606px;
+}
+
+.block5 {
+    position: absolute;
+    width: 325px;
+    height: 350px;
+    left: 774px;
+    top: 489px;
+    padding: 23px 33px 119px;
+    background: linear-gradient(239.25deg, #FFFFFF 12.19%, rgba(255, 255, 255, 0.85) 101.66%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.main .btns {
+    justify-content: space-between;
+    position: absolute;
+    width: 315px;
+    height: 65px;
+    left: 882px;
+    top: 734px;
+    background-color: #D3E5EF;
+    padding: 17px 30px 17px 30px;
+}
+
+.main .btn {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/****************Catalog****************/
+
+.catalog_main {
+    margin: 80px 0 40px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.catalog_item {
+    width: 285px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.catalog_item div {
+    margin-left: 20px;
+}
+
+.item_name {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.item_info {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.item_price {
+    font-family: 'Merriweather', serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/****************Shopping-bag****************/
+
+.shopping_bag {
+    margin: 80px 0 80px;
+}
+
+.order {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.order p {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+#h {
+    margin-bottom: 40px;
+}
+
+#sum {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.order_item {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+    height: 300px;
+    display: flex;
+}
+
+.order_decription {
+    margin: 20px 90px auto 60px;
+}
+
+.order .btn {
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 18px 30px;
+}
